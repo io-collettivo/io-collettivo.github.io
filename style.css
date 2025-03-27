@@ -1,24 +1,187 @@
 body {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace, sans-serif;
     margin: 0;
-    overflow: hidden; /* Hide scrollbars */
-    font-family: sans-serif; /* Choose your font */
-}
-
-#hero-container {
-    position: relative; /* Required for absolute positioning of child elements */
-}
-
-#p5-canvas {
-    /* The canvas will now take up the full size of its container */
-}
-
-#text-content {
-    position: absolute; /* Place text on top of the canvas */
-    top: 20px; /* Adjust top and left positioning as needed */
-    left: 20px;
-    width: 40%; /* Adjust width as needed */
     padding: 20px;
-    color: white;
-    background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
-    z-index: 10; /* Ensure text is on top of the canvas */
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em; /* Slightly smaller on desktop */
+    font-weight: normal;
+    margin-top: 10px;
+    color: #ffff00;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    position: relative;
+}
+
+header nav ul li a:hover {
+    color: #ffff00;
+}
+
+header nav ul li a::before {
+    content: "[";
+    position: absolute;
+    left: -10px;
+    color: #aaa;
+}
+
+header nav ul li a::after {
+    content: "]";
+    position: absolute;
+    right: -10px;
+    color: #aaa;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.content-section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+.section-title {
+    font-size: 1.6em; /* Slightly smaller on desktop */
+    color: #ffff00;
+    margin-bottom: 15px;
+}
+
+.code-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.code-list li {
+    margin-bottom: 8px;
+}
+
+.code-list li::before {
+    content: "// ";
+    color: #aaa;
+    margin-right: 5px;
+}
+
+.code-block {
+    background-color: #111;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    white-space: pre-line;
+}
+
+.filename {
+    color: #add8e6;
+}
+
+.back-to-top {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.back-to-top a {
+    color: #777;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.back-to-top a:hover {
+    color: #ffff00;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+    border-top: 1px solid #333;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Less padding on mobile */
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header nav ul {
+        flex-direction: column; /* Make the list vertical */
+        align-items: center; /* Center the items */
+    }
+
+    header nav ul li {
+        margin: 10px 0; /* More vertical spacing */
+    }
+
+    header nav ul li a {
+        font-size: 1em; /* Slightly larger text on mobile */
+    }
+
+    header nav ul li a::before,
+    header nav ul li a::after {
+        display: none; /* Hide the brackets for cleaner vertical nav */
+    }
+
+    .content-section {
+        padding: 15px; /* Less padding in sections on mobile */
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        font-size: 1.4em;
+    }
+
+    .code-block {
+        padding: 10px;
+        font-size: 0.85em;
+    }
+
+    .back-to-top {
+        text-align: center; /* Center the back to top link on mobile */
+    }
+
+    footer {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
 }
