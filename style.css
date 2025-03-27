@@ -185,3 +185,13 @@ footer {
         padding-bottom: 10px;
     }
 }
+
+.header-logo {
+    /* Example sizing - adjust as needed */
+    height: 200px; 
+    width: auto; /* Maintain aspect ratio */
+    padding: 2em;
+  
+    /* Optional: Align vertically if needed (might require Flexbox/Grid on the header) */
+    vertical-align: middle; 
+  }
