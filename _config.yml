@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: IO # the website title (if blank, full name will be used instead)
-first_name: I.O.
+title: # the website title (if blank, full name will be used instead)
+first_name: IO
 middle_name: multimedia
 last_name: 
 contact_note: >
