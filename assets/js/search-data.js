@@ -9,9 +9,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+  },{id: "nav-portfolio",
+          title: "portfolio",
+          description: "This is our research portfolio and past event archive.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -398,9 +398,14 @@ ninja.data = [{
               window.location.href = "/news/announcement_1/";
             },},{id: "projects-io-amp-you-fantasia",
           title: 'IO&amp;amp;YOU: Fantasia',
-          description: "12 april 2025 at Nuovo Anfiteatro Martesana",
+          description: "UPCOMING 12 april 2025 at Nuovo Anfiteatro Martesana",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-io-amp-you-chill-room-interattiva",
+          title: 'IO&amp;amp;YOU: Chill Room Interattiva',
+          description: "27-28-29 april 2025 at Nuovo Anfiteatro Martesana",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
