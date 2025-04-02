@@ -6,7 +6,7 @@ subtitle: Technical and Artistical Research collective based in Milan.
 
 profile:
   align: right
-  image: logo_large.png
+  image: prof_pic_large.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>We are at</p>
