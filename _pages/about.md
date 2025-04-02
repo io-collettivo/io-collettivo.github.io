@@ -6,8 +6,8 @@ subtitle: Technical and Artistical Research collective based in Milan.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image: logo_large.png
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>We are at</p>
     <p>NAMA, Nuovo Anfiteatro Martesana</p>

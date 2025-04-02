@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: IO
-middle_name: multimedia
+title:  # the website title (if blank, full name will be used instead)
+first_name: 
+middle_name: 
 last_name: 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Technical and Research collective based in Milan, Italy.
 footer_text: >
