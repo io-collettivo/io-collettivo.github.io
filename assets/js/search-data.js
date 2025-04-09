@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-our-team",
-          title: "our team",
-          description: "members of the collective, without any specific order",
+        },{id: "nav-courses",
+          title: "courses",
+          description: "Teachings by IO Multimedia",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/our-team/";
+            window.location.href = "/teachings/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -406,6 +406,21 @@ ninja.data = [{
           description: "27-28-29 april 2025 at Nuovo Anfiteatro Martesana",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "teachings-segnali-av",
+          title: 'Segnali AV',
+          description: "UPCOMING MAY 2025 at Nuovo Anfiteatro Martesana",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/Segnali%20AV/";
+            },},{id: "teachings-ableton-production",
+          title: 'Ableton Production',
+          description: "UPCOMING MAY 2025 at Nuovo Anfiteatro Martesana",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/ableton_production/";
+            },},{id: "teachings-marketing-musicale",
+          title: 'Marketing Musicale',
+          description: "UPCOMING MAY 2025 at Nuovo Anfiteatro Martesana",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/marketing_musicale/";
             },},{
         id: 'social-email',
         title: 'email',
