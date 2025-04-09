@@ -3,7 +3,7 @@ layout: profiles
 permalink: /our-team/
 title: our team
 description: members of the collective, without any specific order
-nav: true
+nav: false
 nav_order: 7
 
 profiles:
