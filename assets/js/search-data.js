@@ -413,7 +413,7 @@ ninja.data = [{
               window.location.href = "/teachings/Segnali%20AV/";
             },},{id: "teachings-ableton-production",
           title: 'Ableton Production',
-          description: "UPCOMING MAY 2025 at Nuovo Anfiteatro Martesana",
+          description: "In-depth course on music production using Ableton Live. UPCOMING MAY 2025 at Nuovo Anfiteatro Martesana.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/ableton_production/";
             },},{id: "teachings-marketing-musicale",
