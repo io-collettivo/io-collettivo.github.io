@@ -17,9 +17,8 @@ toc: true # Enables the Table of Contents
    {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="w-100 h-100" alt="Ableton Production Course Hero Image" style="object-fit: cover; object-position: center center;" %}
 </div>
 
-<div class="container">
+<div class="container" style="display:none;">
   <h2 style="display:none;" id="highlights">Course Highlights</h2>
-
   <div class="row align-items-center mb-4 mt-4">
     <div class="col-md-6">
       <h3>Unlock Your Creativity</h3>
@@ -29,7 +28,6 @@ toc: true # Enables the Table of Contents
       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" title="Creative Tools" class="img-fluid rounded shadow course-highlight-figure" %}
       </div>
   </div>
-
   <div class="row align-items-center mb-4">
     <div class="col-md-6 order-md-2">
       <h3>Hands-On Learning</h3>
@@ -39,7 +37,6 @@ toc: true # Enables the Table of Contents
       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" title="Hands-On Studio" class="img-fluid rounded shadow course-highlight-figure" %}
       </div>
   </div>
-
   <div class="row align-items-center mb-4">
     <div class="col-md-6">
       <h3>Industry Insights</h3>
@@ -56,7 +53,7 @@ toc: true # Enables the Table of Contents
 <div class="container">
   <h2 id="program">Program Details</h2>
   <hr class="mt-0 mb-4"/>
-  <p class="text-muted">Click on a lesson row to see more details.</p>
+  <p class="text-muted">Click on a lesson to see more details.</p>
   <div class="table-responsive">
     <table class="table table-hover">
       <thead class="thead-light">
@@ -68,90 +65,113 @@ toc: true # Enables the Table of Contents
       </thead>
       <tbody>
         <tr class="clickable-row" data-toggle="collapse" data-target="#lesson-1" aria-expanded="false" aria-controls="lesson-1">
-          <td>May 5, 2025</td>
-          <td>Introduction to Ableton Live</td>
-          <td>Dr. Beat</td>
+          <td>May 16</td>
+          <td>What is Music?</td>
+          <td>Dave</td>
         </tr>
         <tr>
           <td colspan="3" class="p-0">
             <div class="collapse" id="lesson-1">
               <div class="lesson-content p-3">
-                <strong>Contents Covered:</strong> Interface overview, Session vs Arrangement view, basic MIDI and audio clips, setting up preferences, understanding signal flow.
+                <strong>Contents Covered:</strong> We will create rhythms, melodies and grooves using our bodies and analog instruments, recording everything into Ableton Live Suite 12.
               </div>
             </div>
           </td>
         </tr>
-
         <tr class="clickable-row" data-toggle="collapse" data-target="#lesson-2" aria-expanded="false" aria-controls="lesson-2">
-          <td>May 12, 2025</td>
-          <td>Rhythm & Drums</td>
-          <td>Prof. Groove</td>
+          <td>May 21, 2025</td>
+          <td>Music Theory Fundamentals</td>
+          <td>Samuele Lauro</td>
         </tr>
         <tr>
           <td colspan="3" class="p-0">
             <div class="collapse" id="lesson-2">
               <div class="lesson-content p-3">
-                <strong>Contents Covered:</strong> Drum Rack deep dive, programming beats with MIDI clips, using Impulse, Simpler for drum sampling and manipulation, groove pool basics.
+                <strong>Contents Covered:</strong> Thanks to his theorical studies, Samuele will lead you throught armonies and melodies, analyzing the relations between notes and musical events.
               </div>
             </div>
           </td>
         </tr>
-
         <tr class="clickable-row" data-toggle="collapse" data-target="#lesson-3" aria-expanded="false" aria-controls="lesson-3">
-          <td>May 19, 2025</td>
-          <td>Melody & Harmony</td>
-          <td>Dr. Beat</td>
+          <td>May 28</td>
+          <td>Ableton Live for Beatmakers</td>
+          <td>Dave</td>
         </tr>
         <tr>
           <td colspan="3" class="p-0">
             <div class="collapse" id="lesson-3">
               <div class="lesson-content p-3">
-                <strong>Contents Covered:</strong> Introduction to Ableton's instruments (Wavetable, Operator), creating melodies with MIDI, understanding MIDI effects (Arpeggiator, Chord), basic music theory concepts (scales, chords).
+                <strong>Contents Covered:</strong> We will record Loops and Samples to prepare all the material needed to make your own instrumentals.
               </div>
             </div>
           </td>
         </tr>
-
         <tr class="clickable-row" data-toggle="collapse" data-target="#lesson-4" aria-expanded="false" aria-controls="lesson-4">
-          <td>May 26, 2025</td>
-          <td>Sampling Techniques</td>
-          <td>Prof. Groove</td>
+          <td>June 4, 2025</td>
+          <td>Modern Beatmaking</td>
+          <td>Soulja</td>
         </tr>
          <tr>
           <td colspan="3" class="p-0">
             <div class="collapse" id="lesson-4">
               <div class="lesson-content p-3">
-                <strong>Contents Covered:</strong> Simpler vs Sampler comparison, audio warping modes and techniques, creative sampling workflows (chopping, resampling), audio to MIDI conversion.
+                <strong>Contents Covered:</strong> We will create an instrumental from scratch using the materials recorded in the last lessons. Themes covered ranges from song structure to Sample selection. Everything you need to make your first instrumental.
               </div>
             </div>
           </td>
         </tr>
-
         <tr class="clickable-row" data-toggle="collapse" data-target="#lesson-5" aria-expanded="false" aria-controls="lesson-5">
-          <td>June 2, 2025</td>
-          <td>Mixing Fundamentals</td>
-          <td>Dr. Beat</td>
+          <td>October</td>
+          <td>Songwriting</td>
+          <td>Luvi</td>
         </tr>
          <tr>
           <td colspan="3" class="p-0">
             <div class="collapse" id="lesson-5">
               <div class="lesson-content p-3">
-                <strong>Contents Covered:</strong> Understanding levels and panning, introduction to EQ (equalization), basic compression concepts, using send/return tracks for effects (reverb, delay).
+                <strong>Contents Covered:</strong> Lesson contents coming...
               </div>
             </div>
           </td>
         </tr>
-
         <tr class="clickable-row" data-toggle="collapse" data-target="#lesson-6" aria-expanded="false" aria-controls="lesson-6">
-          <td>June 9, 2025</td>
-          <td>Arrangement & Structure</td>
-          <td>Prof. Groove</td>
+          <td>October</td>
+          <td>Sound Design</td>
+          <td>Wick The Juicebag</td>
         </tr>
          <tr>
           <td colspan="3" class="p-0">
             <div class="collapse" id="lesson-6">
               <div class="lesson-content p-3">
-                <strong>Contents Covered:</strong> Building a full track structure in Arrangement View, creating effective transitions, using automation for dynamics and effects, strategies for finishing songs.
+                <strong>Contents Covered:</strong> Lesson contents coming...
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr class="clickable-row" data-toggle="collapse" data-target="#lesson-7" aria-expanded="false" aria-controls="lesson-7">
+          <td>October</td>
+          <td>FX and Automations</td>
+          <td>Dave</td>
+        </tr>
+         <tr>
+          <td colspan="3" class="p-0">
+            <div class="collapse" id="lesson-7">
+              <div class="lesson-content p-3">
+                <strong>Contents Covered:</strong> Lesson contents coming...
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr class="clickable-row" data-toggle="collapse" data-target="#lesson-8" aria-expanded="false" aria-controls="lesson-8">
+          <td>October</td>
+          <td>Mix and Master</td>
+          <td>Machweo</td>
+        </tr>
+         <tr>
+          <td colspan="3" class="p-0">
+            <div class="collapse" id="lesson-8">
+              <div class="lesson-content p-3">
+                <strong>Contents Covered:</strong> Lesson contents coming...
               </div>
             </div>
           </td>
@@ -167,25 +187,35 @@ toc: true # Enables the Table of Contents
   <h2 id="instructors">Instructors</h2>
   <hr class="mt-0 mb-4"/>
   <div class="row text-center">
-    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-      {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Dr. Beat Photo" %}
-      <h5>Dr. Beat</h5>
-      <p class="text-muted">Lead Instructor, Synthesis Expert</p>
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+      {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Dave" %}
+      <h5>Dave</h5>
+      <p class="text-muted">Lead Instructor, Front of the House NAMA Audio Engineer</p>
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Prof. Groove Photo" %}
-      <h5>Prof. Groove</h5>
-      <p class="text-muted">Mixing & Mastering Specialist</p>
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Samuele Lauro" %}
+      <h5>Samuele Lauro</h5>
+      <p class="text-muted">Multi-Instrumentalist</p>
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Ms. Sample Photo" %}
-      <h5>Ms. Sample</h5>
-      <p class="text-muted">Sound Design & Sampling</p>
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Soulja" %}
+      <h5>Soulja</h5>
+      <p class="text-muted">Main NAMA Producer</p>
     </div>
-    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Mr. Arrange Photo" %}
-      <h5>Mr. Arrange</h5>
-      <p class="text-muted">Arrangement & Workflow</p>
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Wick The Juicebag" %}
+      <h5>Wick The Juicebag</h5>
+      <p class="text-muted">Producer, Sound Designer</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Luvi" %}
+      <h5>Luvi</h5>
+      <p class="text-muted">Rapper, Songwriter</p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Machweo" %}
+      <h5>Machweo</h5>
+      <p class="text-muted">Producer, Sound Engineer</p>
     </div>
   </div>
 </div>
