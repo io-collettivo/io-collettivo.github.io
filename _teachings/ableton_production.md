@@ -1,14 +1,14 @@
 ---
 layout: page # Or your specific 'teaching' layout if created
 title: 'Ableton Production'
-description: 'In-depth course on music production using Ableton Live. UPCOMING MAY 2025 at Nuovo Anfiteatro Martesana.'
+description: 'In-depth course on music production using Ableton Live. START MAY 2025 at Nuovo Anfiteatro Martesana. 2ND Phase after summer break'
 importance: 1 # Lower number means higher importance/priority in lists
 category: 'NAMA'
 related_publications: false
 toc: true # Enables the Table of Contents
 ---
 
-<div class="container text-center pt-5 pb-4">
+<div class="container text-center pt-5 pb-4" style="display:none;">
   <h1 class="display-4 font-weight-bold">{{ page.title }}</h1>
   <p class="lead">{{ page.description }}</p>
 </div>
@@ -185,34 +185,34 @@ toc: true # Enables the Table of Contents
 
 <div class="container">
   <h2 id="instructors">Instructors</h2>
-  <hr class="mt-0 mb-4"/>
+  <hr class="mt-0 mb-3"/>
   <div class="row text-center">
-    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
       {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Dave" %}
       <h5>Dave</h5>
       <p class="text-muted">Lead Instructor, Front of the House NAMA Audio Engineer</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
        {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Samuele Lauro" %}
       <h5>Samuele Lauro</h5>
       <p class="text-muted">Multi-Instrumentalist</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
        {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Soulja" %}
       <h5>Soulja</h5>
       <p class="text-muted">Main NAMA Producer</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
        {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Wick The Juicebag" %}
       <h5>Wick The Juicebag</h5>
       <p class="text-muted">Producer, Sound Designer</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
        {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Luvi" %}
       <h5>Luvi</h5>
       <p class="text-muted">Rapper, Songwriter</p>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-lg-3 col-md-3 col-sm-6 mb-3">
        {% include figure.liquid loading="eager" path="assets/img/prof_pic_large.jpg" class="img-fluid rounded-circle shadow mb-2" alt="Machweo" %}
       <h5>Machweo</h5>
       <p class="text-muted">Producer, Sound Engineer</p>
